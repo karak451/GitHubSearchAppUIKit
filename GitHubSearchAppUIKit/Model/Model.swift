@@ -7,14 +7,6 @@
 
 import Foundation
 
-
-enum KeresesStatusz{
-    case keres
-    case hiba
-    case vegzett
-    case off
-}
-
 //MARK: listázáshoz
 struct Root: Codable{
     let items: [Repository]
